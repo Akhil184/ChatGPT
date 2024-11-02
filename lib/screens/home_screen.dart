@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
     final chatProvider = Provider.of<ChatProvider>(context);
 
     return Scaffold(
-      appBar: AppBar(title: Text('ChatGPT'),centerTitle: true,),
+      appBar: AppBar(title: Text('IT4YOURBUSINESS'),centerTitle: true,),
       body: Column(
         children: [
           Expanded(
